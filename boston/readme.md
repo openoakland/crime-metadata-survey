@@ -1,5 +1,7 @@
-this data was released from BPD in 2011
+The data is available on the [City of Boston's website](https://data.cityofboston.gov/Public-Safety/Crime-Incident-Reports/7cdf-6fgx) updated on a (more or less daily basis).
 
-yes, the columns all have leading spaces
+The actual data is an array of arrays with the inner array roughly corresponding to a row in a CSV.
 
-the location columns X and Y are in the Massachusetts state plane feet projection
+Data is managed by [@CurtSavoie](https://github.com/CurtSavoie).
+
+The location columns X and Y are in the Massachusetts state plane feet projection [spsg:2894](http://spatialreference.org/ref/epsg/2894/)
