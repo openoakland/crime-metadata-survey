@@ -1,5 +1,4 @@
 {
- "view" : {
    "id" : "7cdf-6fgx",
    "name" : "Crime Incident Reports",
    "attribution" : "Boston Police Department",
@@ -2451,4 +2450,3 @@
    "tags" : [ "police", "crime", "incidents", "safety" ],
    "flags" : [ "default" ]
  }
-}
