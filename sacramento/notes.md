@@ -3,6 +3,7 @@ http://www.sacpd.org/crime/stats/reports/
 Because this data is produced via a complex set of processes, there are many places where errors can be introduced into the data that you will be downloading. The margin of error in this data is approximately 10%. Please keep this in mind when working with these data extracts. No representation is made or implied regarding the accuracy of the data being made available.
 
 It is against State law (Government Code Section 6254) for us to provide victim's addresses for certain classes of crimes (mainly rape, sex or abuse-related crimes). Since the address field in the data extracts is usually that of the victim, it has been blanked out for the affected crime types. You can still research activity for those types of crimes, but location information will be limited to district, beat, or grid. This applies to the following crimes:
+
 220 - Attempted Rape
 261 - Rape
 262 - Rape
