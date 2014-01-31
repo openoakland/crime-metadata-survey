@@ -1,47 +1,2452 @@
 {
-   " COMPNOS": "",
-   " SUPPNOS": "",
-   " REPORTINGAREA": "",
-   " INCIDENT_TYPE_DESCRIPTION": "",
-   " CRIME_CODE": "",
-   " CRIMECODE_DESC": "",
-   " FINALCRIMECODE": "",
-   " FINALCRIMECODEDESC": "",
-   " REPTDISTRICT": "",
-   " FROMDATE": "",
-   " TODATE": "",
-   " STREETNOS": "",
-   " STREETNAME": "",
-   " XSTREETNAME": "",
-   " WEAPONTYPE": "",
-   " BUILDINGTYPE": "",
-   " PLACEOFENTRY": "",
-   " PERPETRATORSNOS": "",
-   " SUSPECTTRANSPORTATION": "",
-   " VICTIMACTIVITY": "",
-   " UNUSUALACTIONS": "",
-   " WEATHER": "",
-   " NEIGHBORHOOD": "",
-   " LIGHTING": "",
-   " CLEARANCESTATUSDESC": "",
-   " MAIN_CRIMECODE": "",
-   " ROBBERY_TYPE": "",
-   " ROBBERY_ATTEMP": "",
-   " BURGLARY_TIME": "",
-   " DOMESTIC": "",
-   " WEAPON_TYPE": "",
-   " SHIFT": "",
-   " DAY_WEEK": "",
-   " UCRPART": "",
-   " LOCATION": "",
-   " X": "",
-   " Y": "",
-   " SCORE": "",
-   " GREPORTING": "",
-   " GSECTOR": "",
-   " GBEAT": "",
-   " GDISTRICT": "",
-   " SHOOTING_TYPE": "",
-   " COMPUTEDCRIMECODE": "",
-   " COMPUTEDCRIMECODEDESC": ""
+   "id" : "7cdf-6fgx",
+   "name" : "Crime Incident Reports",
+   "attribution" : "Boston Police Department",
+   "attributionLink" : "http://www.bpdnews.com/",
+   "averageRating" : 0,
+   "category" : "Public Safety",
+   "createdAt" : 1363111173,
+   "description" : "Crime Incident Reports provided by Boston Police Department",
+   "displayType" : "table",
+   "downloadCount" : 5414,
+   "indexUpdatedAt" : 1390908839,
+   "licenseId" : "CC0_10",
+   "newBackend" : false,
+   "numberOfComments" : 0,
+   "oid" : 7242301,
+   "publicationAppendEnabled" : false,
+   "publicationDate" : 1390904505,
+   "publicationGroup" : 729332,
+   "publicationStage" : "published",
+   "resourceName" : "crime",
+   "rowsUpdatedAt" : 1390904485,
+   "rowsUpdatedBy" : "2pz3-cb5i",
+   "tableId" : 1457124,
+   "totalTimesRated" : 0,
+   "viewCount" : 2756,
+   "viewLastModified" : 1390904505,
+   "viewType" : "tabular",
+   "columns" : [ {
+     "id" : -1,
+     "name" : "sid",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":sid",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : -1,
+     "name" : "id",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":id",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : -1,
+     "name" : "position",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":position",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : -1,
+     "name" : "created_at",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":created_at",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : -1,
+     "name" : "created_meta",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":created_meta",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : -1,
+     "name" : "updated_at",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":updated_at",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : -1,
+     "name" : "updated_meta",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":updated_meta",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : -1,
+     "name" : "meta",
+     "dataTypeName" : "meta_data",
+     "fieldName" : ":meta",
+     "position" : 0,
+     "renderTypeName" : "meta_data",
+     "format" : {
+     }
+   }, {
+     "id" : 130879323,
+     "name" : "COMPNOS",
+     "dataTypeName" : "number",
+     "fieldName" : "compnos",
+     "position" : 1,
+     "renderTypeName" : "number",
+     "tableColumnId" : 8563966,
+     "width" : 184,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "90703848",
+       "sum" : "15948878181479",
+       "null" : 0,
+       "average" : "111421532.6357342",
+       "largest" : "140026781",
+       "top" : [ {
+         "count" : 20,
+         "item" : "100000505"
+       }, {
+         "count" : 19,
+         "item" : "100000481"
+       }, {
+         "count" : 18,
+         "item" : "100000480"
+       }, {
+         "count" : 17,
+         "item" : "100000469"
+       }, {
+         "count" : 16,
+         "item" : "100000437"
+       }, {
+         "count" : 15,
+         "item" : "100000434"
+       }, {
+         "count" : 14,
+         "item" : "100000367"
+       }, {
+         "count" : 13,
+         "item" : "100000364"
+       }, {
+         "count" : 12,
+         "item" : "100000331"
+       }, {
+         "count" : 11,
+         "item" : "100000330"
+       }, {
+         "count" : 10,
+         "item" : "100000324"
+       }, {
+         "count" : 9,
+         "item" : "100000319"
+       }, {
+         "count" : 8,
+         "item" : "100000296"
+       }, {
+         "count" : 7,
+         "item" : "100000289"
+       }, {
+         "count" : 6,
+         "item" : "100000283"
+       }, {
+         "count" : 5,
+         "item" : "100000280"
+       }, {
+         "count" : 4,
+         "item" : "100000278"
+       }, {
+         "count" : 3,
+         "item" : "100000269"
+       }, {
+         "count" : 2,
+         "item" : "100000260"
+       }, {
+         "count" : 1,
+         "item" : "100000239"
+       } ]
+     },
+     "format" : {
+       "precisionStyle" : "standard",
+       "noCommas" : "true",
+       "align" : "right"
+     }
+   }, {
+     "id" : 130879324,
+     "name" : "REPORTINGAREA",
+     "dataTypeName" : "number",
+     "fieldName" : "reportingarea",
+     "position" : 2,
+     "renderTypeName" : "number",
+     "tableColumnId" : 8563967,
+     "width" : 256,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "0",
+       "sum" : "53329123",
+       "null" : 0,
+       "average" : "372.5661799636719",
+       "largest" : "962",
+       "top" : [ {
+         "count" : 20,
+         "item" : "822"
+       }, {
+         "count" : 19,
+         "item" : "0"
+       }, {
+         "count" : 18,
+         "item" : "624"
+       }, {
+         "count" : 17,
+         "item" : "509"
+       }, {
+         "count" : 16,
+         "item" : "134"
+       }, {
+         "count" : 15,
+         "item" : "347"
+       }, {
+         "count" : 14,
+         "item" : "465"
+       }, {
+         "count" : 13,
+         "item" : "462"
+       }, {
+         "count" : 12,
+         "item" : "907"
+       }, {
+         "count" : 11,
+         "item" : "116"
+       }, {
+         "count" : 10,
+         "item" : "120"
+       }, {
+         "count" : 9,
+         "item" : "328"
+       }, {
+         "count" : 8,
+         "item" : "178"
+       }, {
+         "count" : 7,
+         "item" : "913"
+       }, {
+         "count" : 6,
+         "item" : "792"
+       }, {
+         "count" : 5,
+         "item" : "222"
+       }, {
+         "count" : 4,
+         "item" : "312"
+       }, {
+         "count" : 3,
+         "item" : "157"
+       }, {
+         "count" : 2,
+         "item" : "795"
+       }, {
+         "count" : 1,
+         "item" : "904"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879325,
+     "name" : "INCIDENT_TYPE_DESCRIPTION",
+     "dataTypeName" : "text",
+     "fieldName" : "incident_type_description",
+     "position" : 3,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563968,
+     "width" : 400,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : " ",
+       "null" : 0,
+       "largest" : " ",
+       "top" : [ {
+         "count" : 20,
+         "item" : " "
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879326,
+     "name" : "REPTDISTRICT",
+     "dataTypeName" : "text",
+     "fieldName" : "reptdistrict",
+     "position" : 4,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563969,
+     "width" : 244,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "A1",
+       "null" : 0,
+       "largest" : "E5",
+       "top" : [ {
+         "count" : 20,
+         "item" : "A7"
+       }, {
+         "count" : 19,
+         "item" : "D14"
+       }, {
+         "count" : 18,
+         "item" : "C11"
+       }, {
+         "count" : 17,
+         "item" : "C6"
+       }, {
+         "count" : 16,
+         "item" : "B3"
+       }, {
+         "count" : 15,
+         "item" : "B2"
+       }, {
+         "count" : 14,
+         "item" : "E13"
+       }, {
+         "count" : 13,
+         "item" : "A1"
+       }, {
+         "count" : 12,
+         "item" : "D4"
+       }, {
+         "count" : 11,
+         "item" : "A15"
+       }, {
+         "count" : 10,
+         "item" : "E5"
+       }, {
+         "count" : 9,
+         "item" : "E18"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879327,
+     "name" : "FROMDATE",
+     "dataTypeName" : "calendar_date",
+     "fieldName" : "fromdate",
+     "position" : 5,
+     "renderTypeName" : "calendar_date",
+     "tableColumnId" : 8563970,
+     "width" : 196,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "2010-01-01T00:00:00",
+       "null" : 0,
+       "largest" : "2014-01-14T07:30:00",
+       "top" : [ {
+         "count" : 20,
+         "item" : "2010-01-01T01:00:00"
+       }, {
+         "count" : 19,
+         "item" : "2010-01-01T03:21:00"
+       }, {
+         "count" : 18,
+         "item" : "2010-01-01T03:25:00"
+       }, {
+         "count" : 17,
+         "item" : "2010-01-01T03:20:00"
+       }, {
+         "count" : 16,
+         "item" : "2010-01-01T02:00:00"
+       }, {
+         "count" : 15,
+         "item" : "2010-01-01T02:48:00"
+       }, {
+         "count" : 14,
+         "item" : "2010-01-01T02:32:00"
+       }, {
+         "count" : 13,
+         "item" : "2010-01-01T02:25:00"
+       }, {
+         "count" : 12,
+         "item" : "2010-01-01T02:15:00"
+       }, {
+         "count" : 11,
+         "item" : "2010-01-01T02:13:00"
+       }, {
+         "count" : 10,
+         "item" : "2010-01-01T02:09:00"
+       }, {
+         "count" : 9,
+         "item" : "2010-01-01T02:01:00"
+       }, {
+         "count" : 8,
+         "item" : "2010-01-01T01:58:00"
+       }, {
+         "count" : 7,
+         "item" : "2010-01-01T01:53:00"
+       }, {
+         "count" : 6,
+         "item" : "2010-01-01T01:50:00"
+       }, {
+         "count" : 5,
+         "item" : "2010-01-01T01:47:00"
+       }, {
+         "count" : 4,
+         "item" : "2010-01-01T01:40:00"
+       }, {
+         "count" : 3,
+         "item" : "2010-01-01T01:33:00"
+       }, {
+         "count" : 2,
+         "item" : "2010-01-01T12:46:00"
+       }, {
+         "count" : 1,
+         "item" : "2010-01-01T01:24:00"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879328,
+     "name" : "TODATE",
+     "dataTypeName" : "calendar_date",
+     "fieldName" : "todate",
+     "position" : 6,
+     "renderTypeName" : "calendar_date",
+     "tableColumnId" : 8563971,
+     "width" : 172,
+     "cachedContents" : {
+       "non_null" : 67744,
+       "smallest" : "2010-01-01T00:30:00",
+       "null" : 75396,
+       "largest" : "2014-01-14T09:00:00",
+       "top" : [ {
+         "count" : 20,
+         "item" : "2010-01-04T13:30:00"
+       }, {
+         "count" : 19,
+         "item" : "2010-01-03T11:00:00"
+       }, {
+         "count" : 18,
+         "item" : "2010-01-02T04:00:00"
+       }, {
+         "count" : 17,
+         "item" : "2010-01-02T09:00:00"
+       }, {
+         "count" : 16,
+         "item" : "2010-01-01T02:00:00"
+       }, {
+         "count" : 15,
+         "item" : "2010-01-02T00:35:00"
+       }, {
+         "count" : 14,
+         "item" : "2010-01-01T22:10:00"
+       }, {
+         "count" : 13,
+         "item" : "2010-01-01T19:30:00"
+       }, {
+         "count" : 12,
+         "item" : "2010-01-01T21:00:00"
+       }, {
+         "count" : 11,
+         "item" : "2010-01-01T19:00:00"
+       }, {
+         "count" : 10,
+         "item" : "2010-01-01T18:30:00"
+       }, {
+         "count" : 9,
+         "item" : "2010-01-01T16:40:00"
+       }, {
+         "count" : 8,
+         "item" : "2010-01-01T15:30:00"
+       }, {
+         "count" : 7,
+         "item" : "2010-01-01T15:19:00"
+       }, {
+         "count" : 6,
+         "item" : "2010-01-01T11:30:00"
+       }, {
+         "count" : 5,
+         "item" : "2010-01-01T10:00:00"
+       }, {
+         "count" : 4,
+         "item" : "2010-01-01T10:30:00"
+       }, {
+         "count" : 3,
+         "item" : "2010-01-01T13:45:00"
+       }, {
+         "count" : 2,
+         "item" : "2010-01-01T13:15:00"
+       }, {
+         "count" : 1,
+         "item" : "2010-01-06T14:11:00"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879329,
+     "name" : "WEAPONTYPE",
+     "dataTypeName" : "text",
+     "fieldName" : "weapontype",
+     "position" : 7,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563972,
+     "width" : 220,
+     "cachedContents" : {
+       "non_null" : 90938,
+       "smallest" : " ",
+       "null" : 52202,
+       "largest" : "YELLOW TOWEL",
+       "top" : [ {
+         "count" : 20,
+         "item" : "N/A"
+       }, {
+         "count" : 19,
+         "item" : "HANDS"
+       }, {
+         "count" : 18,
+         "item" : "UNKNOWN"
+       }, {
+         "count" : 17,
+         "item" : "KNIFE"
+       }, {
+         "count" : 16,
+         "item" : "NONE"
+       }, {
+         "count" : 15,
+         "item" : "HANDGUN"
+       }, {
+         "count" : 14,
+         "item" : "HANDS/FEET/TEETH"
+       }, {
+         "count" : 13,
+         "item" : "NA"
+       }, {
+         "count" : 12,
+         "item" : "OTHER"
+       }, {
+         "count" : 11,
+         "item" : "BLUNT OBJECT"
+       }, {
+         "count" : 10,
+         "item" : "FIREARM UNK"
+       }, {
+         "count" : 9,
+         "item" : "FEET"
+       }, {
+         "count" : 8,
+         "item" : "ROCK"
+       }, {
+         "count" : 7,
+         "item" : "BRICK"
+       }, {
+         "count" : 6,
+         "item" : "MOTOR VEHICLE"
+       }, {
+         "count" : 5,
+         "item" : "GUN"
+       }, {
+         "count" : 4,
+         "item" : "BASEBALL BAT"
+       }, {
+         "count" : 3,
+         "item" : "GLASS"
+       }, {
+         "count" : 2,
+         "item" : "HANDS/FEET"
+       }, {
+         "count" : 1,
+         "item" : "COBBLE STONE"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879330,
+     "name" : "BUILDINGTYPE",
+     "dataTypeName" : "text",
+     "fieldName" : "buildingtype",
+     "position" : 8,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563973,
+     "width" : 244,
+     "cachedContents" : {
+       "non_null" : 104185,
+       "smallest" : " ",
+       "null" : 38955,
+       "largest" : "ZOO",
+       "top" : [ {
+         "count" : 20,
+         "item" : "CONVENIENCE /GROCERY /SUPERMARKET STORE"
+       }, {
+         "count" : 19,
+         "item" : "PARKING LOT /GARAGE"
+       }, {
+         "count" : 18,
+         "item" : "SCHOOL /COLLEGE /DORM"
+       }, {
+         "count" : 17,
+         "item" : "DEPARTMENT /SPECIALTY STORE"
+       }, {
+         "count" : 16,
+         "item" : "STREET"
+       }, {
+         "count" : 15,
+         "item" : "RESIDENTIAL HOUSE"
+       }, {
+         "count" : 14,
+         "item" : "RESIDENTIAL APT"
+       }, {
+         "count" : 13,
+         "item" : "N/A"
+       }, {
+         "count" : 12,
+         "item" : "HOSPITAL /DOCTOR'S OFFICE"
+       }, {
+         "count" : 11,
+         "item" : "BAR/RESTAURANT"
+       }, {
+         "count" : 10,
+         "item" : "COMMERICAL /INDUSTRIAL /OFFICE BUILDING"
+       }, {
+         "count" : 9,
+         "item" : "PUBLIC WAY"
+       }, {
+         "count" : 8,
+         "item" : "CITY STREET"
+       }, {
+         "count" : 7,
+         "item" : "HOUSING PROJECT"
+       }, {
+         "count" : 6,
+         "item" : "PARKS & RECREATION AREAS"
+       }, {
+         "count" : 5,
+         "item" : "APARTMENT"
+       }, {
+         "count" : 4,
+         "item" : "HOTEL /MOTEL /ETC"
+       }, {
+         "count" : 3,
+         "item" : "ROADWAY"
+       }, {
+         "count" : 2,
+         "item" : "NA"
+       }, {
+         "count" : 1,
+         "item" : "GOVERNMENT /PUBLIC BUILDING"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879331,
+     "name" : "PLACEOFENTRY",
+     "dataTypeName" : "text",
+     "fieldName" : "placeofentry",
+     "position" : 9,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563974,
+     "width" : 244,
+     "cachedContents" : {
+       "non_null" : 73349,
+       "smallest" : " ",
+       "null" : 69791,
+       "largest" : "YARD ENTRANCE",
+       "top" : [ {
+         "count" : 20,
+         "item" : "N/A"
+       }, {
+         "count" : 19,
+         "item" : "UNKNOWN"
+       }, {
+         "count" : 18,
+         "item" : "FRONT DOOR"
+       }, {
+         "count" : 17,
+         "item" : "SIDE WINDOW"
+       }, {
+         "count" : 16,
+         "item" : "NA"
+       }, {
+         "count" : 15,
+         "item" : "SIDE DOOR"
+       }, {
+         "count" : 14,
+         "item" : "REAR DOOR"
+       }, {
+         "count" : 13,
+         "item" : "WINDOW"
+       }, {
+         "count" : 12,
+         "item" : "REAR WINDOW"
+       }, {
+         "count" : 11,
+         "item" : "FRONT WINDOW"
+       }, {
+         "count" : 10,
+         "item" : "NONE"
+       }, {
+         "count" : 9,
+         "item" : "OTHER"
+       }, {
+         "count" : 8,
+         "item" : "BASEMENT DOOR"
+       }, {
+         "count" : 7,
+         "item" : "PASSENGER WINDOW"
+       }, {
+         "count" : 6,
+         "item" : "PASSENGER SIDE WINDOW"
+       }, {
+         "count" : 5,
+         "item" : "RIGHT FRONT WINDOW"
+       }, {
+         "count" : 4,
+         "item" : "FRONT PASSENGER WINDOW"
+       }, {
+         "count" : 3,
+         "item" : "DRIVER SIDE WINDOW"
+       }, {
+         "count" : 2,
+         "item" : "ROOF"
+       }, {
+         "count" : 1,
+         "item" : "DOOR"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879332,
+     "name" : "PERPETRATORSNOS",
+     "dataTypeName" : "number",
+     "fieldName" : "perpetratorsnos",
+     "position" : 10,
+     "renderTypeName" : "number",
+     "tableColumnId" : 8563975,
+     "width" : 280,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "0",
+       "sum" : "0",
+       "null" : 0,
+       "average" : "0",
+       "largest" : "0",
+       "top" : [ {
+         "count" : 20,
+         "item" : "0"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879333,
+     "name" : "SUSPECTTRANSPORTATION",
+     "dataTypeName" : "text",
+     "fieldName" : "suspecttransportation",
+     "position" : 11,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563976,
+     "width" : 352,
+     "cachedContents" : {
+       "non_null" : 85611,
+       "smallest" : " ",
+       "null" : 57529,
+       "largest" : " YELL0W  BICYCLE",
+       "top" : [ {
+         "count" : 20,
+         "item" : "FOOT"
+       }, {
+         "count" : 19,
+         "item" : "UNKNOWN"
+       }, {
+         "count" : 18,
+         "item" : "BUS"
+       }, {
+         "count" : 17,
+         "item" : "N/A"
+       }, {
+         "count" : 16,
+         "item" : "NA"
+       }, {
+         "count" : 15,
+         "item" : "CAR"
+       }, {
+         "count" : 14,
+         "item" : "BICYCLE"
+       }, {
+         "count" : 13,
+         "item" : "M/V"
+       }, {
+         "count" : 12,
+         "item" : "TRUCK"
+       }, {
+         "count" : 11,
+         "item" : "FOOT "
+       }, {
+         "count" : 10,
+         "item" : "ON FOOT"
+       }, {
+         "count" : 9,
+         "item" : "NONE"
+       }, {
+         "count" : 8,
+         "item" : "MOTORCYCLE"
+       }, {
+         "count" : 7,
+         "item" : "UNKNOWN "
+       }, {
+         "count" : 6,
+         "item" : "MBTA"
+       }, {
+         "count" : 5,
+         "item" : "TAXI"
+       }, {
+         "count" : 4,
+         "item" : "UNK."
+       }, {
+         "count" : 3,
+         "item" : "FOOT/CAR"
+       }, {
+         "count" : 2,
+         "item" : "SCOOTER"
+       }, {
+         "count" : 1,
+         "item" : "VAN"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879334,
+     "name" : "VICTIMACTIVITY",
+     "dataTypeName" : "text",
+     "fieldName" : "victimactivity",
+     "position" : 12,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563977,
+     "width" : 268,
+     "cachedContents" : {
+       "non_null" : 83987,
+       "smallest" : " ",
+       "null" : 59153,
+       "largest" : "ZIP CAR",
+       "top" : [ {
+         "count" : 20,
+         "item" : "N/A"
+       }, {
+         "count" : 19,
+         "item" : "SEE NARRATIVE"
+       }, {
+         "count" : 18,
+         "item" : "AT HOME"
+       }, {
+         "count" : 17,
+         "item" : "HOME"
+       }, {
+         "count" : 16,
+         "item" : "AT WORK"
+       }, {
+         "count" : 15,
+         "item" : "WORKING"
+       }, {
+         "count" : 14,
+         "item" : "SLEEPING"
+       }, {
+         "count" : 13,
+         "item" : "WALKING"
+       }, {
+         "count" : 12,
+         "item" : "UNKNOWN"
+       }, {
+         "count" : 11,
+         "item" : "WALKING HOME"
+       }, {
+         "count" : 10,
+         "item" : "WORKING "
+       }, {
+         "count" : 9,
+         "item" : "AT ATM"
+       }, {
+         "count" : 8,
+         "item" : "AT HOME "
+       }, {
+         "count" : 7,
+         "item" : "RECENTLY DROPPED OFF  WALKING HOME"
+       }, {
+         "count" : 6,
+         "item" : "UNK"
+       }, {
+         "count" : 5,
+         "item" : " "
+       }, {
+         "count" : 4,
+         "item" : "GETTING OUT OF WORK"
+       }, {
+         "count" : 3,
+         "item" : "DINING"
+       }, {
+         "count" : 2,
+         "item" : "AT NEW YEARS PARTY"
+       }, {
+         "count" : 1,
+         "item" : "WLAKING HOME"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879335,
+     "name" : "UNUSUALACTIONS",
+     "dataTypeName" : "text",
+     "fieldName" : "unusualactions",
+     "position" : 13,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563978,
+     "width" : 268,
+     "cachedContents" : {
+       "non_null" : 52267,
+       "smallest" : " ",
+       "null" : 90873,
+       "largest" : "ZIPPING UP PANTS AND SWEARING AT VICTIM WHILE PUSHING HER OUT OF ELEVATOR",
+       "top" : [ {
+         "count" : 20,
+         "item" : "NONE"
+       }, {
+         "count" : 19,
+         "item" : "N/A"
+       }, {
+         "count" : 18,
+         "item" : "SEE NARRATIVE"
+       }, {
+         "count" : 17,
+         "item" : "UNKNOWN"
+       }, {
+         "count" : 16,
+         "item" : "NA"
+       }, {
+         "count" : 15,
+         "item" : "UNK"
+       }, {
+         "count" : 14,
+         "item" : "SEE NARATIVE"
+       }, {
+         "count" : 13,
+         "item" : "BROKE INTO VICTIM S M/V"
+       }, {
+         "count" : 12,
+         "item" : "CHOKED VICTIM AND PUNCHED HIM"
+       }, {
+         "count" : 11,
+         "item" : " IF YOU COME ANY CLOSER I LL STAB YOU "
+       }, {
+         "count" : 10,
+         "item" : "GIVE ME THE MONEY"
+       }, {
+         "count" : 9,
+         "item" : "EXITED VEHICLE AND FIRED ONE ROUND TOWARD VICTIM"
+       }, {
+         "count" : 8,
+         "item" : "SEE NARR"
+       }, {
+         "count" : 7,
+         "item" : "THREW CELL PHONE AND BROKE IT"
+       }, {
+         "count" : 6,
+         "item" : "I WORK FOR COMAST"
+       }, {
+         "count" : 5,
+         "item" : "BROTHER AND SISTER ENTERED INTO A MUTUAL PHYSICAL ALTERCATION"
+       }, {
+         "count" : 4,
+         "item" : "PUNCHED AND SLAMMED VICTIM S HEAD INTO CAR DOOR."
+       }, {
+         "count" : 3,
+         "item" : "STATED   LOSE THE ZEROS AND GET WITH THE HEROES . SUCKER PUNCHED  BOTTLED  AND KICKED VICTIM"
+       }, {
+         "count" : 2,
+         "item" : "RINGING BELL FOR 3RD FL TENANT"
+       }, {
+         "count" : 1,
+         "item" : " I WILL KILL YOU "
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879336,
+     "name" : "WEATHER",
+     "dataTypeName" : "text",
+     "fieldName" : "weather",
+     "position" : 14,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563979,
+     "width" : 184,
+     "cachedContents" : {
+       "non_null" : 114633,
+       "smallest" : " ",
+       "null" : 28507,
+       "largest" : "WINTER STORM NEMO",
+       "top" : [ {
+         "count" : 20,
+         "item" : "CLEAR - NIGHT"
+       }, {
+         "count" : 19,
+         "item" : "SUNNY - DAY"
+       }, {
+         "count" : 18,
+         "item" : "CLOUDY"
+       }, {
+         "count" : 17,
+         "item" : "N/A"
+       }, {
+         "count" : 16,
+         "item" : "UNKNOWN"
+       }, {
+         "count" : 15,
+         "item" : "DAY"
+       }, {
+         "count" : 14,
+         "item" : "RAIN"
+       }, {
+         "count" : 13,
+         "item" : "OTHER"
+       }, {
+         "count" : 12,
+         "item" : "SNOW"
+       }, {
+         "count" : 11,
+         "item" : "SLEET"
+       }, {
+         "count" : 10,
+         "item" : "CLEAR-DAY"
+       }, {
+         "count" : 9,
+         "item" : "CLEAR NIGHT"
+       }, {
+         "count" : 8,
+         "item" : "CLEAR DAY"
+       }, {
+         "count" : 7,
+         "item" : "CLEAR - DAY"
+       }, {
+         "count" : 6,
+         "item" : "SUNNY DAY"
+       }, {
+         "count" : 5,
+         "item" : "NIGHT"
+       }, {
+         "count" : 4,
+         "item" : "COLD"
+       }, {
+         "count" : 3,
+         "item" : "CLEAR"
+       }, {
+         "count" : 2,
+         "item" : "CLEAR-COLD"
+       }, {
+         "count" : 1,
+         "item" : "RAIN/SNOW"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879337,
+     "name" : "NEIGHBORHOOD",
+     "dataTypeName" : "text",
+     "fieldName" : "neighborhood",
+     "position" : 15,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563980,
+     "width" : 244,
+     "cachedContents" : {
+       "non_null" : 123937,
+       "smallest" : " ",
+       "null" : 19203,
+       "largest" : "ZIEGLER STREET",
+       "top" : [ {
+         "count" : 20,
+         "item" : "SOUTH END /LOWER ROXBURY"
+       }, {
+         "count" : 19,
+         "item" : "EAGLE HILL"
+       }, {
+         "count" : 18,
+         "item" : "ALLSTON"
+       }, {
+         "count" : 17,
+         "item" : "MID DORCHESTER"
+       }, {
+         "count" : 16,
+         "item" : "SOUTH BAY /ANDREW SQ"
+       }, {
+         "count" : 15,
+         "item" : "MATTAPAN"
+       }, {
+         "count" : 14,
+         "item" : "ROXBURY"
+       }, {
+         "count" : 13,
+         "item" : "JAMAICA HILLS / J.P. CENTER"
+       }, {
+         "count" : 12,
+         "item" : "NORTH END /WEST END /BEACON HILL"
+       }, {
+         "count" : 11,
+         "item" : "FINANCIAL DIST./CHINATOWN / BAY VILLAGE / X-ING"
+       }, {
+         "count" : 10,
+         "item" : "FENWAY"
+       }, {
+         "count" : 9,
+         "item" : "E BROADWAY /SEAPORT /OLD COLONY"
+       }, {
+         "count" : 8,
+         "item" : "EGLESTON /WALNUT"
+       }, {
+         "count" : 7,
+         "item" : "CHARLESTOWN"
+       }, {
+         "count" : 6,
+         "item" : "BACK BAY"
+       }, {
+         "count" : 5,
+         "item" : "MISSION HILL / LONGWOOD MEDICAL AREA"
+       }, {
+         "count" : 4,
+         "item" : "NORTH DORCHESTER"
+       }, {
+         "count" : 3,
+         "item" : "W BROADWAY /LOWER END"
+       }, {
+         "count" : 2,
+         "item" : "ROSLINDALE"
+       }, {
+         "count" : 1,
+         "item" : "CLEARY SQ /READVILLE / WALCOTT SQ / FAIRMOUNT"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879338,
+     "name" : "LIGHTING",
+     "dataTypeName" : "text",
+     "fieldName" : "lighting",
+     "position" : 16,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563981,
+     "width" : 196,
+     "cachedContents" : {
+       "non_null" : 112225,
+       "smallest" : " ",
+       "null" : 30915,
+       "largest" : "WELL LIT - STREET LIGHTS",
+       "top" : [ {
+         "count" : 20,
+         "item" : "INSIDE - WELL LIT"
+       }, {
+         "count" : 19,
+         "item" : "OUTSIDE - DAY"
+       }, {
+         "count" : 18,
+         "item" : "OUTSIDE - NIGHT - STREET LIGHTS"
+       }, {
+         "count" : 17,
+         "item" : "OUTSIDE - NIGHT - LIMITED/NO STREET LIGHT"
+       }, {
+         "count" : 16,
+         "item" : "INSIDE - LIMITED/NO LIGHTS"
+       }, {
+         "count" : 15,
+         "item" : "DUSK"
+       }, {
+         "count" : 14,
+         "item" : "NATURAL"
+       }, {
+         "count" : 13,
+         "item" : "ARTIFICIAL"
+       }, {
+         "count" : 12,
+         "item" : "UNKNOWN"
+       }, {
+         "count" : 11,
+         "item" : "NA"
+       }, {
+         "count" : 10,
+         "item" : "DAY"
+       }, {
+         "count" : 9,
+         "item" : "N/A"
+       }, {
+         "count" : 8,
+         "item" : "SUNRISE"
+       }, {
+         "count" : 7,
+         "item" : "NIGHT"
+       }, {
+         "count" : 6,
+         "item" : "INSIDE WELL LIT"
+       }, {
+         "count" : 5,
+         "item" : "NAT/ART"
+       }, {
+         "count" : 4,
+         "item" : "UNK"
+       }, {
+         "count" : 3,
+         "item" : "ART"
+       }, {
+         "count" : 2,
+         "item" : "ARTI"
+       }, {
+         "count" : 1,
+         "item" : "DAYLIGHT"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879339,
+     "name" : "CLEARANCESTATUSDESC",
+     "dataTypeName" : "text",
+     "fieldName" : "clearancestatusdesc",
+     "position" : 17,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563982,
+     "width" : 328,
+     "cachedContents" : {
+       "non_null" : 27568,
+       "smallest" : " ",
+       "null" : 115572,
+       "largest" : "UNFOUNDED",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Cleared By Arrest"
+       }, {
+         "count" : 19,
+         "item" : " "
+       }, {
+         "count" : 18,
+         "item" : "Juvenile-Cleared By Arrest"
+       }, {
+         "count" : 17,
+         "item" : "Unfounded"
+       }, {
+         "count" : 16,
+         "item" : "EXCEPTIONALLY CLEARED"
+       }, {
+         "count" : 15,
+         "item" : "CLEARED BY ARREST"
+       }, {
+         "count" : 14,
+         "item" : "UNFOUNDED"
+       }, {
+         "count" : 13,
+         "item" : "Exceptionally Cleared"
+       }, {
+         "count" : 12,
+         "item" : "JUVENILE-EXCEPTIONALLY CLEARED"
+       }, {
+         "count" : 11,
+         "item" : "JUVENILE-CLEARED BY ARREST"
+       }, {
+         "count" : 10,
+         "item" : "Juvenile-Exceptionally Cleared"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879340,
+     "name" : "MAIN_CRIMECODE",
+     "dataTypeName" : "text",
+     "fieldName" : "main_crimecode",
+     "position" : 18,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563983,
+     "width" : 268,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "01xx",
+       "null" : 0,
+       "largest" : "Hazardous",
+       "top" : [ {
+         "count" : 20,
+         "item" : "06xx"
+       }, {
+         "count" : 19,
+         "item" : "07xx"
+       }, {
+         "count" : 18,
+         "item" : "08xx"
+       }, {
+         "count" : 17,
+         "item" : "06MV"
+       }, {
+         "count" : 16,
+         "item" : "14xx"
+       }, {
+         "count" : 15,
+         "item" : "04xx"
+       }, {
+         "count" : 14,
+         "item" : "05RB"
+       }, {
+         "count" : 13,
+         "item" : "Hazardous"
+       }, {
+         "count" : 12,
+         "item" : "03xx"
+       }, {
+         "count" : 11,
+         "item" : "24xx"
+       }, {
+         "count" : 10,
+         "item" : "05CB"
+       }, {
+         "count" : 9,
+         "item" : "01xx"
+       }, {
+         "count" : 8,
+         "item" : "Bomb"
+       }, {
+         "count" : 7,
+         "item" : "Explos"
+       }, {
+         "count" : 6,
+         "item" : "BioThreat"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879341,
+     "name" : "ROBBERY_TYPE",
+     "dataTypeName" : "text",
+     "fieldName" : "robbery_type",
+     "position" : 19,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563984,
+     "width" : 244,
+     "cachedContents" : {
+       "non_null" : 6911,
+       "smallest" : "Bank",
+       "null" : 136229,
+       "largest" : "Street",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Commercial"
+       }, {
+         "count" : 19,
+         "item" : "Street"
+       }, {
+         "count" : 18,
+         "item" : "Other"
+       }, {
+         "count" : 17,
+         "item" : "Bank"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879342,
+     "name" : "ROBBERY_ATTEMP",
+     "dataTypeName" : "text",
+     "fieldName" : "robbery_attemp",
+     "position" : 20,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563985,
+     "width" : 268,
+     "cachedContents" : {
+       "non_null" : 6911,
+       "smallest" : "No",
+       "null" : 136229,
+       "largest" : "Yes",
+       "top" : [ {
+         "count" : 20,
+         "item" : "No"
+       }, {
+         "count" : 19,
+         "item" : "Yes"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879343,
+     "name" : "BURGLARY_TIME",
+     "dataTypeName" : "text",
+     "fieldName" : "burglary_time",
+     "position" : 21,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563986,
+     "width" : 256,
+     "cachedContents" : {
+       "non_null" : 12724,
+       "smallest" : "D",
+       "null" : 130416,
+       "largest" : "Night",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Day"
+       }, {
+         "count" : 19,
+         "item" : "Night"
+       }, {
+         "count" : 18,
+         "item" : "D"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879344,
+     "name" : "DOMESTIC",
+     "dataTypeName" : "text",
+     "fieldName" : "domestic",
+     "position" : 22,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563987,
+     "width" : 196,
+     "cachedContents" : {
+       "non_null" : 143070,
+       "smallest" : "No",
+       "null" : 70,
+       "largest" : "Yes",
+       "top" : [ {
+         "count" : 20,
+         "item" : "No"
+       }, {
+         "count" : 19,
+         "item" : "Yes"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879345,
+     "name" : "WEAPON_TYPE",
+     "dataTypeName" : "text",
+     "fieldName" : "weapon_type",
+     "position" : 23,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563988,
+     "width" : 232,
+     "cachedContents" : {
+       "non_null" : 108187,
+       "smallest" : "Firearm",
+       "null" : 34953,
+       "largest" : "Unarmed",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Unarmed"
+       }, {
+         "count" : 19,
+         "item" : "Other"
+       }, {
+         "count" : 18,
+         "item" : "Knife"
+       }, {
+         "count" : 17,
+         "item" : "Firearm"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879346,
+     "name" : "SHIFT",
+     "dataTypeName" : "text",
+     "fieldName" : "shift",
+     "position" : 24,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563989,
+     "width" : 160,
+     "cachedContents" : {
+       "non_null" : 143070,
+       "smallest" : "Day",
+       "null" : 70,
+       "largest" : "Last",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Last"
+       }, {
+         "count" : 19,
+         "item" : "Day"
+       }, {
+         "count" : 18,
+         "item" : "First"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879347,
+     "name" : "DAY_WEEK",
+     "dataTypeName" : "text",
+     "fieldName" : "day_week",
+     "position" : 25,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563990,
+     "width" : 196,
+     "cachedContents" : {
+       "non_null" : 143070,
+       "smallest" : "Friday",
+       "null" : 70,
+       "largest" : "Wednesday",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Friday"
+       }, {
+         "count" : 19,
+         "item" : "Thursday"
+       }, {
+         "count" : 18,
+         "item" : "Wednesday"
+       }, {
+         "count" : 17,
+         "item" : "Monday"
+       }, {
+         "count" : 16,
+         "item" : "Tuesday"
+       }, {
+         "count" : 15,
+         "item" : "Saturday"
+       }, {
+         "count" : 14,
+         "item" : "Sunday"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879348,
+     "name" : "UCRPART",
+     "dataTypeName" : "text",
+     "fieldName" : "ucrpart",
+     "position" : 26,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563991,
+     "width" : 184,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "Other",
+       "null" : 0,
+       "largest" : "Part Two",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Part One"
+       }, {
+         "count" : 19,
+         "item" : "Part Two"
+       }, {
+         "count" : 18,
+         "item" : "Other"
+       }, {
+         "count" : 17,
+         "item" : "Part three"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879349,
+     "name" : "X",
+     "dataTypeName" : "number",
+     "fieldName" : "x",
+     "position" : 27,
+     "renderTypeName" : "number",
+     "tableColumnId" : 8563992,
+     "width" : 112,
+     "cachedContents" : {
+       "non_null" : 142324,
+       "smallest" : "226512.57990",
+       "sum" : "102799991929.66460",
+       "null" : 816,
+       "average" : "722295.5505021261",
+       "largest" : "800901.06381",
+       "top" : [ {
+         "count" : 20,
+         "item" : "777040.62476"
+       }, {
+         "count" : 19,
+         "item" : "236020.13003"
+       }, {
+         "count" : 18,
+         "item" : "774277.05210"
+       }, {
+         "count" : 17,
+         "item" : "228068.05678"
+       }, {
+         "count" : 16,
+         "item" : "747938.85543"
+       }, {
+         "count" : 15,
+         "item" : "235392.20429"
+       }, {
+         "count" : 14,
+         "item" : "772210.47027"
+       }, {
+         "count" : 13,
+         "item" : "232467.88585"
+       }, {
+         "count" : 12,
+         "item" : "762837.15864"
+       }, {
+         "count" : 11,
+         "item" : "237165.25577"
+       }, {
+         "count" : 10,
+         "item" : "778069.75428"
+       }, {
+         "count" : 9,
+         "item" : "235088.70933"
+       }, {
+         "count" : 8,
+         "item" : "771334.31602"
+       } ]
+     },
+     "format" : {
+       "precisionStyle" : "standard",
+       "noCommas" : "true",
+       "align" : "right"
+     }
+   }, {
+     "id" : 130879350,
+     "name" : "Y",
+     "dataTypeName" : "number",
+     "fieldName" : "y",
+     "position" : 28,
+     "renderTypeName" : "number",
+     "tableColumnId" : 8563993,
+     "width" : 112,
+     "cachedContents" : {
+       "non_null" : 142324,
+       "smallest" : "887012.18557",
+       "sum" : "393465614575.39656",
+       "null" : 816,
+       "average" : "2764576.702280687",
+       "largest" : "2968980.63647",
+       "top" : [ {
+         "count" : 20,
+         "item" : "2956004.39682"
+       }, {
+         "count" : 19,
+         "item" : "902662.86358"
+       }, {
+         "count" : 18,
+         "item" : "2961545.34685"
+       }, {
+         "count" : 17,
+         "item" : "900391.83470"
+       }, {
+         "count" : 16,
+         "item" : "2954125.94617"
+       }, {
+         "count" : 15,
+         "item" : "897949.26050"
+       }, {
+         "count" : 14,
+         "item" : "2946123.17527"
+       }, {
+         "count" : 13,
+         "item" : "896903.99682"
+       }, {
+         "count" : 12,
+         "item" : "2942606.76580"
+       }, {
+         "count" : 11,
+         "item" : "894201.98417"
+       }, {
+         "count" : 10,
+         "item" : "2933805.62460"
+       }, {
+         "count" : 9,
+         "item" : "895516.99260"
+       }, {
+         "count" : 8,
+         "item" : "2938010.31141"
+       } ]
+     },
+     "format" : {
+       "precisionStyle" : "standard",
+       "noCommas" : "true",
+       "align" : "right"
+     }
+   }, {
+     "id" : 130879351,
+     "name" : "GREPORTING",
+     "dataTypeName" : "text",
+     "fieldName" : "greporting",
+     "position" : 29,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563994,
+     "width" : 220,
+     "cachedContents" : {
+       "non_null" : 142964,
+       "smallest" : "1",
+       "null" : 176,
+       "largest" : "99",
+       "top" : [ {
+         "count" : 20,
+         "item" : "624"
+       }, {
+         "count" : 19,
+         "item" : "509"
+       }, {
+         "count" : 18,
+         "item" : "134"
+       }, {
+         "count" : 17,
+         "item" : "347"
+       }, {
+         "count" : 16,
+         "item" : "118"
+       }, {
+         "count" : 15,
+         "item" : "465"
+       }, {
+         "count" : 14,
+         "item" : "343"
+       }, {
+         "count" : 13,
+         "item" : "27"
+       }, {
+         "count" : 12,
+         "item" : "116"
+       }, {
+         "count" : 11,
+         "item" : "792"
+       }, {
+         "count" : 10,
+         "item" : "223"
+       }, {
+         "count" : 9,
+         "item" : "308"
+       }, {
+         "count" : 8,
+         "item" : "157"
+       }, {
+         "count" : 7,
+         "item" : "64"
+       }, {
+         "count" : 6,
+         "item" : "795"
+       }, {
+         "count" : 5,
+         "item" : "268"
+       }, {
+         "count" : 4,
+         "item" : "578"
+       }, {
+         "count" : 3,
+         "item" : "787"
+       }, {
+         "count" : 2,
+         "item" : "101"
+       }, {
+         "count" : 1,
+         "item" : "794"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879352,
+     "name" : "GSECTOR",
+     "dataTypeName" : "text",
+     "fieldName" : "gsector",
+     "position" : 30,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563995,
+     "width" : 184,
+     "cachedContents" : {
+       "non_null" : 143044,
+       "smallest" : "A411",
+       "null" : 96,
+       "largest" : "L422",
+       "top" : [ {
+         "count" : 20,
+         "item" : "D431"
+       }, {
+         "count" : 19,
+         "item" : "G412"
+       }, {
+         "count" : 18,
+         "item" : "F412"
+       }, {
+         "count" : 17,
+         "item" : "E411"
+       }, {
+         "count" : 16,
+         "item" : "A441"
+       }, {
+         "count" : 15,
+         "item" : "A432"
+       }, {
+         "count" : 14,
+         "item" : "B422"
+       }, {
+         "count" : 13,
+         "item" : "K421"
+       }, {
+         "count" : 12,
+         "item" : "B412"
+       }, {
+         "count" : 11,
+         "item" : "C411"
+       }, {
+         "count" : 10,
+         "item" : "C422"
+       }, {
+         "count" : 9,
+         "item" : "B441"
+       }, {
+         "count" : 8,
+         "item" : "D442"
+       }, {
+         "count" : 7,
+         "item" : "D422"
+       }, {
+         "count" : 6,
+         "item" : "E423"
+       }, {
+         "count" : 5,
+         "item" : "K422"
+       }, {
+         "count" : 4,
+         "item" : "D411"
+       }, {
+         "count" : 3,
+         "item" : "F421"
+       }, {
+         "count" : 2,
+         "item" : "C432"
+       }, {
+         "count" : 1,
+         "item" : "H411"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879353,
+     "name" : "GBEAT",
+     "dataTypeName" : "text",
+     "fieldName" : "gbeat",
+     "position" : 31,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563996,
+     "width" : 160,
+     "cachedContents" : {
+       "non_null" : 143044,
+       "smallest" : "Academy/Washington Park",
+       "null" : 96,
+       "largest" : "West Roxbury",
+       "top" : [ {
+         "count" : 20,
+         "item" : "Back Bay"
+       }, {
+         "count" : 19,
+         "item" : "Eagle Hill"
+       }, {
+         "count" : 18,
+         "item" : "Oak Square"
+       }, {
+         "count" : 17,
+         "item" : "Codman Square"
+       }, {
+         "count" : 16,
+         "item" : "Lower End/New Market/Old Harbor"
+       }, {
+         "count" : 15,
+         "item" : "Ronan Park Area"
+       }, {
+         "count" : 14,
+         "item" : "Mattapan"
+       }, {
+         "count" : 13,
+         "item" : "Mission Hill/LMA"
+       }, {
+         "count" : 12,
+         "item" : "Egleston /  Walnut"
+       }, {
+         "count" : 11,
+         "item" : "Downtown"
+       }, {
+         "count" : 10,
+         "item" : "Beacon Hill / Bay Village / Chinatown"
+       }, {
+         "count" : 9,
+         "item" : "Maverick"
+       }, {
+         "count" : 8,
+         "item" : "Fenway"
+       }, {
+         "count" : 7,
+         "item" : "Commonwealth Flats/City Point"
+       }, {
+         "count" : 6,
+         "item" : "Hyde Square"
+       }, {
+         "count" : 5,
+         "item" : "Charlestown"
+       }, {
+         "count" : 4,
+         "item" : "Erie Street"
+       }, {
+         "count" : 3,
+         "item" : "Dudley Square"
+       }, {
+         "count" : 2,
+         "item" : "Orient Heights"
+       }, {
+         "count" : 1,
+         "item" : "South End / Lower Roxbury"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879354,
+     "name" : "GDISTRICT",
+     "dataTypeName" : "text",
+     "fieldName" : "gdistrict",
+     "position" : 32,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563997,
+     "width" : 208,
+     "cachedContents" : {
+       "non_null" : 143124,
+       "smallest" : "A1",
+       "null" : 16,
+       "largest" : "E5",
+       "top" : [ {
+         "count" : 20,
+         "item" : "D4"
+       }, {
+         "count" : 19,
+         "item" : "A7"
+       }, {
+         "count" : 18,
+         "item" : "D14"
+       }, {
+         "count" : 17,
+         "item" : "C11"
+       }, {
+         "count" : 16,
+         "item" : "C6"
+       }, {
+         "count" : 15,
+         "item" : "B3"
+       }, {
+         "count" : 14,
+         "item" : "B2"
+       }, {
+         "count" : 13,
+         "item" : "E13"
+       }, {
+         "count" : 12,
+         "item" : "A1"
+       }, {
+         "count" : 11,
+         "item" : "A15"
+       }, {
+         "count" : 10,
+         "item" : "E5"
+       }, {
+         "count" : 9,
+         "item" : "E18"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879355,
+     "name" : "SHOOTING_TYPE",
+     "dataTypeName" : "text",
+     "fieldName" : "shooting_type",
+     "position" : 33,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563998,
+     "width" : 256,
+     "cachedContents" : {
+       "non_null" : 799,
+       "smallest" : "ABDW",
+       "null" : 142341,
+       "largest" : "Homicide",
+       "top" : [ {
+         "count" : 20,
+         "item" : "ABDW"
+       }, {
+         "count" : 19,
+         "item" : "Homicide"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879356,
+     "name" : "COMPUTEDCRIMECODE",
+     "dataTypeName" : "text",
+     "fieldName" : "computedcrimecode",
+     "position" : 34,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8563999,
+     "width" : 304,
+     "cachedContents" : {
+       "non_null" : 143138,
+       "smallest" : "111",
+       "null" : 2,
+       "largest" : "803",
+       "top" : [ {
+         "count" : 20,
+         "item" : "633"
+       }, {
+         "count" : 19,
+         "item" : "802"
+       }, {
+         "count" : 18,
+         "item" : "634"
+       }, {
+         "count" : 17,
+         "item" : "614"
+       }, {
+         "count" : 16,
+         "item" : "1402"
+       }, {
+         "count" : 15,
+         "item" : "613"
+       }, {
+         "count" : 14,
+         "item" : "617"
+       }, {
+         "count" : 13,
+         "item" : "619"
+       }, {
+         "count" : 12,
+         "item" : "623"
+       }, {
+         "count" : 11,
+         "item" : "627"
+       }, {
+         "count" : 10,
+         "item" : "520"
+       }, {
+         "count" : 9,
+         "item" : "637"
+       }, {
+         "count" : 8,
+         "item" : "724"
+       }, {
+         "count" : 7,
+         "item" : "403"
+       }, {
+         "count" : 6,
+         "item" : "522"
+       }, {
+         "count" : 5,
+         "item" : "770"
+       }, {
+         "count" : 4,
+         "item" : "339"
+       }, {
+         "count" : 3,
+         "item" : "624"
+       }, {
+         "count" : 2,
+         "item" : "412"
+       }, {
+         "count" : 1,
+         "item" : "616"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879357,
+     "name" : "COMPUTEDCRIMECODEDESC",
+     "dataTypeName" : "text",
+     "fieldName" : "computedcrimecodedesc",
+     "position" : 35,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8564000,
+     "width" : 352,
+     "cachedContents" : {
+       "non_null" : 143138,
+       "smallest" : "A&B HANDS  FEET  ETC.- MED. ATTENTION REQ.",
+       "null" : 2,
+       "largest" : "WILFUL & MAL.DESTRUCTION OF PROPERTY W/ARREST",
+       "top" : [ {
+         "count" : 20,
+         "item" : "LARCENY SHOPLIFTING UNDER $50"
+       }, {
+         "count" : 19,
+         "item" : "ASSAULT & BATTERY"
+       }, {
+         "count" : 18,
+         "item" : "LARCENY NON-ACCESSORY FROM VEH. UNDER $50"
+       }, {
+         "count" : 17,
+         "item" : "LARCENY NON-ACCESSORY FROM VEH. $200 & OVER"
+       }, {
+         "count" : 16,
+         "item" : "VANDALISM"
+       }, {
+         "count" : 15,
+         "item" : "LARCENY SHOPLIFTING $200 & OVER"
+       }, {
+         "count" : 14,
+         "item" : "LARCENY IN A BUILDING $200 & OVER"
+       }, {
+         "count" : 13,
+         "item" : "LARCENY OTHER $200 & OVER"
+       }, {
+         "count" : 12,
+         "item" : "LARCENY SHOPLIFTING $50 TO $199"
+       }, {
+         "count" : 11,
+         "item" : "LARCENY IN A BUILDING $50 TO $199"
+       }, {
+         "count" : 10,
+         "item" : "B&E RESIDENCE DAY - FORCE"
+       }, {
+         "count" : 9,
+         "item" : "LARCENY IN A BUILDING UNDER $50"
+       }, {
+         "count" : 8,
+         "item" : "AUTO THEFT"
+       }, {
+         "count" : 7,
+         "item" : "ASSAULT & BATTERY D/W - OTHER"
+       }, {
+         "count" : 6,
+         "item" : "B&E RESIDENCE DAY - NO FORCE"
+       }, {
+         "count" : 5,
+         "item" : "RECOVERED - MV RECOVERED IN BOSTON (STOLEN IN BOSTON)"
+       }, {
+         "count" : 4,
+         "item" : "ROBBERY - UNARMED - STREET "
+       }, {
+         "count" : 3,
+         "item" : "LARCENY NON-ACCESSORY FROM VEH. $50 TO $199"
+       }, {
+         "count" : 2,
+         "item" : "ASSAULT D/W - KNIFE"
+       }, {
+         "count" : 1,
+         "item" : "LARCENY BICYCLE $200 & OVER"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879358,
+     "name" : "STREETNAME",
+     "dataTypeName" : "text",
+     "fieldName" : "streetname",
+     "position" : 36,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8564001,
+     "width" : 220,
+     "cachedContents" : {
+       "non_null" : 143062,
+       "smallest" : "13TH ST",
+       "null" : 78,
+       "largest" : "ZELLER ST",
+       "top" : [ {
+         "count" : 20,
+         "item" : "WASHINGTON ST"
+       }, {
+         "count" : 19,
+         "item" : "BOYLSTON ST"
+       }, {
+         "count" : 18,
+         "item" : "DORCHESTER AV"
+       }, {
+         "count" : 17,
+         "item" : "DUDLEY ST"
+       }, {
+         "count" : 16,
+         "item" : "MASSACHUSETTS AV"
+       }, {
+         "count" : 15,
+         "item" : "HARRISON AV"
+       }, {
+         "count" : 14,
+         "item" : "NEWBURY ST"
+       }, {
+         "count" : 13,
+         "item" : "JOHNSTON RD"
+       }, {
+         "count" : 12,
+         "item" : "PARK PLAZA"
+       }, {
+         "count" : 11,
+         "item" : "CAUSEWAY ST"
+       }, {
+         "count" : 10,
+         "item" : "COLUMBUS AV"
+       }, {
+         "count" : 9,
+         "item" : "BOWDOIN ST"
+       }, {
+         "count" : 8,
+         "item" : "INTERVALE ST"
+       }, {
+         "count" : 7,
+         "item" : "MT VERNON ST"
+       }, {
+         "count" : 6,
+         "item" : "COMMONWEALTH AV"
+       }, {
+         "count" : 5,
+         "item" : "E 2ND ST"
+       }, {
+         "count" : 4,
+         "item" : "TOWNSEND ST"
+       }, {
+         "count" : 3,
+         "item" : "W NEWTON ST"
+       }, {
+         "count" : 2,
+         "item" : "CHARLES ST"
+       }, {
+         "count" : 1,
+         "item" : "HIGGINS ST"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879359,
+     "name" : "XSTREETNAME",
+     "dataTypeName" : "text",
+     "fieldName" : "xstreetname",
+     "position" : 37,
+     "renderTypeName" : "text",
+     "tableColumnId" : 8564002,
+     "width" : 232,
+     "cachedContents" : {
+       "non_null" : 19071,
+       "smallest" : " ",
+       "null" : 124069,
+       "largest" : "ZEIGLER ST",
+       "top" : [ {
+         "count" : 20,
+         "item" : "WASHINGTON ST"
+       }, {
+         "count" : 19,
+         "item" : "TREMONT ST"
+       }, {
+         "count" : 18,
+         "item" : "DORCHESTER AV"
+       }, {
+         "count" : 17,
+         "item" : "BOYLSTON ST"
+       }, {
+         "count" : 16,
+         "item" : "BLUE HILL AV"
+       }, {
+         "count" : 15,
+         "item" : "UKRAINE WY"
+       }, {
+         "count" : 14,
+         "item" : "E BROADWAY"
+       }, {
+         "count" : 13,
+         "item" : "ELM HILL AV"
+       }, {
+         "count" : 12,
+         "item" : "FRANKLIN ST"
+       }, {
+         "count" : 11,
+         "item" : "WASHBURN ST"
+       }, {
+         "count" : 10,
+         "item" : "BAKER ST"
+       }, {
+         "count" : 9,
+         "item" : "GOODWAY RD"
+       }, {
+         "count" : 8,
+         "item" : "WATER ST"
+       }, {
+         "count" : 7,
+         "item" : "NEPONSET AV"
+       }, {
+         "count" : 6,
+         "item" : "HARVARD AV"
+       }, {
+         "count" : 5,
+         "item" : "MELVILLE AV"
+       }, {
+         "count" : 4,
+         "item" : "EDISON GREEN"
+       }, {
+         "count" : 3,
+         "item" : "DARTMOUTH ST"
+       }, {
+         "count" : 2,
+         "item" : "RADCLIFFE ST"
+       }, {
+         "count" : 1,
+         "item" : "WALWORTH ST"
+       } ]
+     },
+     "format" : {
+     }
+   }, {
+     "id" : 130879360,
+     "name" : "Property_ID",
+     "dataTypeName" : "text",
+     "fieldName" : "property_id",
+     "position" : 38,
+     "renderTypeName" : "text",
+     "tableColumnId" : 14633430,
+     "width" : 100,
+     "cachedContents" : {
+       "non_null" : 143140,
+       "smallest" : "0",
+       "null" : 0,
+       "largest" : "99984",
+       "top" : [ {
+         "count" : 20,
+         "item" : "0"
+       }, {
+         "count" : 19,
+         "item" : "144650"
+       }, {
+         "count" : 18,
+         "item" : "7560"
+       }, {
+         "count" : 17,
+         "item" : "7503"
+       }, {
+         "count" : 16,
+         "item" : "142385"
+       }, {
+         "count" : 15,
+         "item" : "100883"
+       }, {
+         "count" : 14,
+         "item" : "240581"
+       }, {
+         "count" : 13,
+         "item" : "48335"
+       }, {
+         "count" : 12,
+         "item" : "120638"
+       }, {
+         "count" : 11,
+         "item" : "163797"
+       }, {
+         "count" : 10,
+         "item" : "7537"
+       }, {
+         "count" : 9,
+         "item" : "98099"
+       }, {
+         "count" : 8,
+         "item" : "13887"
+       }, {
+         "count" : 7,
+         "item" : "87826"
+       }, {
+         "count" : 6,
+         "item" : "33637"
+       }, {
+         "count" : 5,
+         "item" : "25018"
+       }, {
+         "count" : 4,
+         "item" : "108750"
+       }, {
+         "count" : 3,
+         "item" : "14624"
+       }, {
+         "count" : 2,
+         "item" : "55469"
+       }, {
+         "count" : 1,
+         "item" : "174027"
+       } ]
+     },
+     "format" : {
+     }
+   } ],
+   "grants" : [ {
+     "inherited" : false,
+     "type" : "viewer",
+     "flags" : [ "public" ]
+   } ],
+   "license" : {
+     "name" : "Creative Commons 1.0 Universal",
+     "logoUrl" : "images/licenses/ccZero.png",
+     "termsLink" : "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+   },
+   "metadata" : {
+     "custom_fields" : {
+       "Data Owner" : {
+         "Owner" : "Public Safety"
+       }
+     },
+     "renderTypeConfig" : {
+       "visible" : {
+         "table" : true
+       }
+     },
+     "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+     "rdfSubject" : "0",
+     "attachments" : [ {
+       "blobId" : "F443C87A-9722-4032-B0A3-E823BA469DF6",
+       "name" : "Crime_Incident_Field_Explanation.xlsx",
+       "filename" : "Crime_Incident_Field_Explanation.xlsx"
+     } ]
+   },
+   "owner" : {
+     "id" : "2pz3-cb5i",
+     "displayName" : "Curt Savoie",
+     "roleName" : "administrator",
+     "screenName" : "Curt Savoie",
+     "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+   },
+   "query" : {
+     "orderBys" : [ {
+       "ascending" : true,
+       "expression" : {
+         "columnId" : 130879327,
+         "type" : "column"
+       }
+     } ]
+   },
+   "rights" : [ "read" ],
+   "sortBys" : [ {
+     "id" : 0,
+     "viewColumnId" : 130879327,
+     "flags" : [ "asc" ]
+   } ],
+   "tableAuthor" : {
+     "id" : "2pz3-cb5i",
+     "displayName" : "Curt Savoie",
+     "roleName" : "administrator",
+     "screenName" : "Curt Savoie",
+     "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+   },
+   "tags" : [ "police", "crime", "incidents", "safety" ],
+   "flags" : [ "default" ]
  }
