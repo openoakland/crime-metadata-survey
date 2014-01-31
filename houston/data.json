@@ -1,12 +1,12 @@
 {
-   "Date": "11/10/2013",
-   "Hour": 1,
-   "Offense Type": "Murder",
-   "Beat": "12D20",
-   "Premise": "20R",
-   "Block Range": "9200-9299",
-   "Street Name": "KINGSFLOWER",
-   "Type": "CIR",
-   "Suffix": "-",
-   "# Of Offenses": 1
+  "Date": "11/10/2013",
+  "Hour": 1,
+  "Offense Type": "Murder",
+  "Beat": "12D20",
+  "Premise": "20R",
+  "Block Range": "9200-9299",
+  "Street Name": "KINGSFLOWER",
+  "Type": "CIR",
+  "Suffix": "-",
+  "# Of Offenses": 1
 }
