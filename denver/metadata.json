@@ -1,0 +1,19 @@
+{
+  "OBJECTID": "Sequential unique whole numbers that are automatically generated.",
+  "INCIDENT_ID": "Unique incident identifier assigned by the Records Management System. There may be duplicate values due to multiple victims per incident or more than one crime per incident.",
+  "OFFENSE_ID": "Unique identifier for each offense derived by concatenating the INCIDENT_ID, OFFENSE_CODE, and OFFENSE_CODE_EXTENSION.",
+  "OFFENSE_CODE": "Offense codes were derived from the four-digit National Crime Information Center (NCIC) Uniform Offense Classification Codes.",
+  "OFFENSE_CODE_EXTENSION": "Offense codes extensions are a one digit suffix to the OFFENSE_CODE that further describes the type of offense.",
+  "OFFENSE_TYPE_ID": "Offense type a short description of the offense. Offense types are based on NIBRS crime types.",
+  "FIRST_OCCURRENCE_DATE": "The date and time the incident initially occurred.",
+  "LAST_OCCURRENCE_DATE": "The date and time the incident last occurred. This variable most often used for property crimes such as a burglary which occurred between the time you left for work and returned home from work.",
+  "REPORTED_DATE": "The date and time the incident was reported to the police. This can vary greatly from occurred time due to late reports, counter reports, etc.",
+  "INCIDENT_ADDRESS": "The address where the incident occurred.",
+  "GEO_X": "The x-coordinate in the state plane coordinate system.",
+  "GEO_Y": "The y-coordinate in the state plane coordinate system.",
+  "GEO_LON": "Longitude in decimal degrees.",
+  "GEO_LAT": "Latitude in decimal degrees.",
+  "DISTRICT_ID": "Police district number. The city is divided into police districts. Each district has a primary station and is run by a police commander.",
+  "PRECINCT_ID": "Police precinct number. Each police district is subdivided into precincts. Patrol officers are assigned to work in specific precincts during their shift.",
+  "NEIGHBORHOOD_ID": "The ID of statistical neighborhood boundaries that were developed in 1970 by the Community Renewal Program administered by the current Denver Department of Community Planning and Development. Statistical Neighborhoods are typically combinations of census tracts"
+}
